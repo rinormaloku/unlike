@@ -10,12 +10,4 @@ window.onload = function () {
             chrome.tabs.sendMessage(tabs[0].id, {action: "executeConsoleMessage"});
         });
     });
-
 };
-
-
-chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-    if (request.action == "listenForMe") {
-        console.debug('Apply On Extension JS: We are listening.');
-    }
-});
