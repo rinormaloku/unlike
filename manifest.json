@@ -1,0 +1,28 @@
+{
+  "author": "Rinor Maloku",
+  "manifest_version": 2,
+  "name": "Turn on the Hate!",
+  "description": "You do not like anything.",
+  "version": "1.0",
+  "page_action": {
+    "default_icon": "img/icon.png",
+    "default_popup": "index.html"
+  },
+  "background":{
+    "scripts": ["js/eventPage.js"],
+    "persistent": true
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["js/applyOnPage.js", "js/jquery-3.1.0.min.js"]
+    }
+  ],
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "https://www.facebook.com/*"
+  ]
+}
