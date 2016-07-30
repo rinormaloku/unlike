@@ -16,7 +16,8 @@
   "content_scripts": [
     {
       "matches": ["https://www.facebook.com/*"],
-      "js": ["js/applyOnPage.js", "js/jquery-3.1.0.min.js"]
+      "js": ["js/applyOnPage.js", "js/jquery-3.1.0.min.js"],
+      "css" : ["css/applyOnPage.css"]
     }
   ],
 

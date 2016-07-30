@@ -1,0 +1,5 @@
+a[data-testid="fb-ufi-likelink"]:before
+{
+    background-image: url(https://i.imgur.com/uRQcLvH.png) !important;
+    background-position: 0 0 !important;
+}
