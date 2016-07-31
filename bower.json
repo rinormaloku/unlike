@@ -1,0 +1,26 @@
+{
+  "name": "Unlike",
+  "authors": [
+    "Rinor Maloku <rinormaloku37@gmail.com>"
+  ],
+  "description": "Hate the world!",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "unlike",
+    "facebook"
+  ],
+  "license": "MIT",
+  "homepage": "rinormaloku.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-toggle-button": "PolymerElements/paper-toggle-button#~1.1.2"
+  }
+}
